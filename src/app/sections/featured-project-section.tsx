@@ -1,6 +1,6 @@
 import React from "react";
 import HeroProjectsCard from "../components/feature-project-card";
-import { ProjectData } from "../lib/project-hero";
+import { ProjectData } from "../../lib/project-hero";
 import { Button } from "../components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";

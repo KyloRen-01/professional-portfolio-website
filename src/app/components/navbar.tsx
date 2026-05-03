@@ -1,5 +1,5 @@
 "use client";
-import { NavBarLinks } from "../lib/link";
+import { NavBarLinks } from "../../lib/link";
 import Link from "next/link";
 import { Button } from "./ui/button";
 export default function Navbar() {

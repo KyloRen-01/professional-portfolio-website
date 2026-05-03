@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "./ui/button";
 import Link from "next/link";
-import { URLS } from "../lib/link";
+import { URLS } from "../../lib/link";
 import { Mail } from "lucide-react";
 import { SiGithub } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";

@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { Badge } from "./ui/badge";
-import { techstackbadges } from "../lib/skills";
+import { techstackbadges } from "../../lib/skills";
 
 interface HeroProjectsCardProps {
   title: string;

@@ -3,7 +3,7 @@ import { motion, Variants } from "framer-motion";
 import { SiGithub } from "react-icons/si";
 import { ArrowRight } from "lucide-react";
 import { FaLinkedin } from "react-icons/fa";
-import { URLS } from "../lib/link";
+import { URLS } from "../../lib/link";
 import { Button } from "../components/ui/button";
 import Link from "next/link";
 export default function HeroSection() {

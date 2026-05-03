@@ -6,7 +6,7 @@ import { useRender } from "@base-ui/react/use-render";
 import { cva, type VariantProps } from "class-variance-authority";
 
 import { useIsMobile } from "@/hooks/use-mobile";
-import { cn } from "@/app/lib/utils";
+import { cn } from "@/lib/utils";
 import { Button } from "@/app/components/components/ui/button";
 import { Input } from "@/app/components/components/ui/input";
 import { Separator } from "@/app/components/components/ui/separator";
