@@ -30,7 +30,7 @@ export default function HeroAboutMeSection() {
               technologies, playing Video Games, Cooking, or Badminton or just
               chilling.
             </p>
-            <Button className="gap-2 bg-white text-black font-montserrat hover:bg-gray-200">
+            <Button className=" bg-white text-black font-montserrat hover:bg-gray-200">
               <Link href="/about">
                 More About Me
                 <ArrowRight className="h-4 w-4" />
