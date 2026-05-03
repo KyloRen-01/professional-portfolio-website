@@ -46,7 +46,7 @@ export default function HeroSection() {
           <div className="flex gap-4">
             <Button
               asChild
-              className="bg-white text-black font-montserrat hover:bg-gray-200"
+              className="bg-white text-black font-montserrat font-semibold hover:bg-gray-200"
             >
               <Link href="/projects">
                 View Projects <ArrowRight className="ml-2 h-4 w-4" />
@@ -55,7 +55,7 @@ export default function HeroSection() {
             <div className="flex gap-4">
               <Button
                 variant="outline"
-                className="border-gray-300! border-2! text-white! bg-black! rounded-md! hover:bg-white! hover:text-black! transition-colors duration-300!"
+                className="border-white! border-2! text-white! bg-black! rounded-md! hover:bg-white! hover:text-black! transition-colors duration-300!"
               >
                 <Link
                   href={URLS.MyGithub}
@@ -68,7 +68,7 @@ export default function HeroSection() {
               </Button>
               <Button
                 variant="outline"
-                className="border-gray-300! border-2! text-white! bg-black! rounded-md! hover:bg-white! hover:text-black! transition-colors duration-300!"
+                className="border-white! border-2! text-white! bg-black! rounded-md! hover:bg-white! hover:text-black! transition-colors duration-300!"
               >
                 <Link
                   href={URLS.MyLinkedIn}

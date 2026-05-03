@@ -39,15 +39,15 @@ const HeroProjectsCard = ({
       <CardContent className="p-6 md:w-1/2">
         <div className="mb-4 flex items-center justify-between">
           <CardTitle className="text-xl font-bold">{title}</CardTitle>
-          <div className="flex gap-2">
+          <div className="flex gap-2 ">
             {deploymentLink && (
               <Link
                 href={deploymentLink || ""}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="ghost" size="icon">
-                  <ExternalLink className="h-5 w-5" />
+                <Button variant="ghost" size="icon" className="cursor-pointer">
+                  <ExternalLink className="h-5 w-5 " />
                 </Button>
               </Link>
             )}
@@ -63,7 +63,7 @@ const HeroProjectsCard = ({
               <Badge
                 variant="secondary"
                 key={index}
-                className="font-medium text-xs md:text-sm bg-slate-100 text-slate-800 hover:bg-slate-200 pointer-events-none flex items-center gap-1.5 px-3 py-1 border-none shadow-none"
+                className="font-medium text-xs md:text-sm font-montserrat bg-slate-100 text-slate-800 hover:bg-slate-200 pointer-events-none flex items-center gap-1.5 px-3 py-1 border-none shadow-none"
               >
                 {matchedSkill?.icon && (
                   <matchedSkill.icon

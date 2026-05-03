@@ -7,13 +7,16 @@ export default function HeroAboutMeSection() {
   return (
     <section>
       <div className="mx-auto max-w-5xl mb-12">
-        <h2 className="mb-4 text-3xl font-bold">About Me</h2>
+        <h2 className="mb-4 text-3xl font-semibold font-montserrat">
+          About Me
+        </h2>
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div className="relative aspect-square">
             <Image
               src="/me.jpg"
               alt="Profile picture"
               fill
+              loading="eager"
               className="rounded-lg object-cover"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
@@ -26,12 +29,12 @@ export default function HeroAboutMeSection() {
               and managing responsive and user-friendly interfaces.
             </p>
             <p className="text-lg text-muted-foreground">
-              When I&apos;m off my desk, you can find me exploring new
-              technologies, playing Video Games, Cooking, or Badminton or just
+              When I&apos;m off my desk, you can find me scrolling through
+              social media, playing Video Games or Badminton, Cooking, or just
               chilling.
             </p>
             <Button
-              className=" gap-2 bg-white text-black font-montserrat hover:bg-gray-200"
+              className=" gap-2 bg-white text-black font-montserrat font-semibold hover:bg-gray-200"
               asChild
             >
               <Link href="/about">
